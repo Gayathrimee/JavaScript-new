@@ -104,24 +104,54 @@
 // myFunction(marks) 
 
 // ....
-const marks = [1,4,6];
-const obj1 = {
-        name:'code  malayalam',
-        place: 'kerala',
-        rank:100
+// const marks = [1,4,6];
+// const obj1 = {
+//         name:'code  malayalam',
+//         place: 'kerala',
+//         rank:100
+// }
+
+// function myFunction(){ 
+//     var [a,b,c] = getvalue();
+//     console.log(a,b,c);
+// }
+// function getValue(){
+//     return marks;
+// }
+// myFunction(obj1) 
+
+
+//        ...................................................................
+
+var obj1 = {
+    name: 'code malayalam',
+    place: 'kerala'
+}
+var obj2 = {
+    name: ' bob ',
+    place: 'US'
 }
 
-function myFunction(){ 
-    var [a,b,c] = getvalue();
-    console.log(a,b,c);
-}
-function getValue(){
-    return marks;
-}
-myFunction(obj1) 
+function abc(){
+    var{
+        name,
+        place
+    } = obj1;
+
+    var {
+        name:name2,
+        place:place2
+    } = obj2;
+    console.log(name,place,name2,place2)
+}   
+abc();
+
+
+
+
 
 
 
 
 // 
-// jhgkuygyglkkjgykufkutfkuygkigukuyffuutfutfyhbjkghhkugfukgjh
+// 
