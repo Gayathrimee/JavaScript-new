@@ -34,7 +34,7 @@
 
 //      (or)
 
-function average(a, b = a){  // or b = a + 100 , anything reltated to a can be given
+function average(a, b = a){  // or b = a + 100 , anything reltated to a can be 
     console.log(a,b);
     const avg = (a + b) / 2;
     return avg;
@@ -45,4 +45,4 @@ const avg = average(4);
 //  are some default arguments rules 
 
  //  
-//  jdfskfdsfakdsjfjsdfudyefsdf
+//   
