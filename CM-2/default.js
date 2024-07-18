@@ -44,5 +44,6 @@ const avg = average(4);
 
 //  are some default arguments rules 
 
- //  
-//   
+//  
+// 
+//
