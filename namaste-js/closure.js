@@ -82,7 +82,7 @@
 //     function inner(){
 //         console.log(a);
 //     }
-//     return inner;
+//     return inner;````````````````hh
 // }
 // outer()();      // 2nd()-> calling the inner function, logs out 10
 
@@ -99,14 +99,13 @@
 // close();            // logs out 10
 
 //  ....
-function (b){
+function outer(b){
     function inner(){
         console.log(a,b);
     }
     var a = 10;   
     return inner;
-}
+}nnnnnmnnnnnmmnnn
 var close = outer( "outerworld");      
 close(); 
 
-//                                                                                                                                                                                   hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh                                                                        hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh                                           hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh                  hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff                                                 

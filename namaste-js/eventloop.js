@@ -6,7 +6,7 @@ setTimeout( function cb() {
 
 console.log("end")
 
-//          FETCH
+// //          FETCH
 
 console.log("start");
 
@@ -19,3 +19,32 @@ fetch ("https://api.netflix.com")
 });
 
 console.log("end");
+
+// // trust issues of setTimeout()
+console.log("start");
+
+setTimeout( function cb() {
+    console.log("call")
+}, 1000);
+
+console.log("end")
+
+// // million codes
+
+let startDate = new Date().getTime();
+let endDate = startDate;
+while (endDate < startDate + 10000){
+    endDate = new Date().getTime();
+}
+console.log("while expires");
+
+// ...
+console.log("start");
+
+ function cb() {
+    console.log("call")
+}
+setTimeout(cb,0)
+
+console.log("end")
+
