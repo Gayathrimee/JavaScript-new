@@ -24,6 +24,8 @@ const output = arr.reduce(function (acc,curr){
 // the 1st parameter, accumulator, is used to accumulate the values
 // or accumulate the result what we have to get out of those values
 //  which are present in the array
+// The 1st argument of reduce fn is the declared fn 
+// and the 2nd argument is the initial value; here it is 0 in the case of sum.
 
 const outpt = arr.reduce(function (acc,curr){
     acc = acc + curr;
@@ -31,7 +33,7 @@ const outpt = arr.reduce(function (acc,curr){
 }, 0);
 console.log(outpt);
 
-// max
+//      max
 
 function findMax(arr){
     let max = 0;
@@ -54,3 +56,4 @@ const result = arr.reduce(function (max,curr){
     return max;
 }, 0);
  console.log(result);
+

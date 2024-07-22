@@ -89,7 +89,7 @@
 // (or)
 
 // function outer(){
-//     function inner(){
+//     function inner(){                      
 //         console.log(a);
 //     }
 //     var a = 10;             //change, it will work same if its 'let'
@@ -105,7 +105,7 @@ function outer(b){
     }
     var a = 10;   
     return inner;
-}nnnnnmnnnnnmmnnn
+}
 var close = outer( "outerworld");      
 close(); 
 
